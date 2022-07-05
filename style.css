@@ -1,4 +1,25 @@
-header{
+header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 400px;
-        background-color: darksalmon;
+        background: url('https://images.unsplash.com/photo-1577368769865-875700bcaa43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+        background-size: contain;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: orangered;
+    border-width: medium;
+    border-style: solid;
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    
 }
